@@ -4,7 +4,7 @@ import studentRoutes from "./routes/studentRoutes.js";
 
 const app = express();
 
-// middleware
+// middleware`
 app.use(cors());
 app.use(express.json());
 
